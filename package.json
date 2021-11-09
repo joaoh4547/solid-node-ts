@@ -1,0 +1,8 @@
+{
+  "name": "solid-node-ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:joaoh4547/solid-node-ts.git",
+  "author": "João Henrique <joaohenriquetdj@gmail.com>",
+  "license": "MIT"
+}
