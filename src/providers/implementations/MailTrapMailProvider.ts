@@ -9,13 +9,13 @@ export class MailTrapMailProvider implements IMailProvider {
       host: "smtp.mailtrap.io",
       port: 2525,
       auth: {
-        user: "6def368c87b9b2",
-        pass: "abf0507e5f088b",
+        user: "3c06b483e65fa9",
+        pass: "afeeddb99f625e",
       },
     });
   }
   async sendMail(message: IMessage): Promise<void> {
-    this.transporter.sendMail({
+    await this.transporter.sendMail({
       to: {
         name: message.to.name,
         address: message.to.email,
